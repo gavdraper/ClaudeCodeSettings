@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# But track these specific items
+!.gitignore
+!CLAUDE.md
+!hooks/
+!agents/
+!commands/
+
+# Track contents within the allowed directories
+!hooks/**
+!agents/**
+!commands/**
